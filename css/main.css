@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-Font-family: Futura PT Condensed
+Font-family: Futura PT
 box-sizing: border-box;
 
 -moz-text-size-adjust: 100%;
@@ -21,4 +21,8 @@ box-sizing: inherit;
 
 p {
   margin: 1em;
+}
+
+icon {
+  float: center;
 }
