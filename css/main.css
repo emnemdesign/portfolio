@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-Font-family: Futura PT
+font-family: Futura PT;
 box-sizing: border-box;
 
 -moz-text-size-adjust: 100%;
@@ -25,4 +25,8 @@ p {
 
 icon {
   float: center;
+}
+
+img {
+  padding
 }
