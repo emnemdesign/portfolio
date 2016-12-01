@@ -12,6 +12,7 @@ box-sizing: border-box;
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
+padding: 10% 10% 10% 10%;
 }
 
 *, *:before, *:after {
@@ -24,6 +25,7 @@ p {
 
 icon {
   float: center;
+  display: inline-block;
 }
 
 img {
