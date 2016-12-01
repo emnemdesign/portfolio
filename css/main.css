@@ -28,6 +28,6 @@ icon {
   display: inline-block;
 }
 
-img {
-  padding
+.picture {
+  width: 350px; 
 }
