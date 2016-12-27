@@ -12,22 +12,272 @@ box-sizing: border-box;
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
-padding: 10% 10% 10% 10%;
+text-align: center;
+background-image: url("../img/sayagata-400px.png");
+background-position: center center;
 }
 
 *, *:before, *:after {
 box-sizing: inherit;
 }
 
-p {
-  margin: 1em;
+.header {
+	width: 100%;
+	height: 360px;
+	position: fixed;
+	top: 0;
 }
 
-icon {
-  float: center;
-  display: inline-block;
+
+
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: Futura PT;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #596365;
+}
+
+nav a:hover {
+	text-decoration: none;
+	font-family: Futura PT;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 17pt;
+}
+
+.web {
+	padding-top: 120%;
+}
+.brand {
+	padding-top: 90%;
+}
+.illustrate {
+	padding-top: 90%;
+}
+
+img {
+	display: inline-block;
+}
+
+figcaption {
+	padding: 0% 0% 10% 0%;
+}
+
+p {
+	padding-bottom: 10%;
+}
+
+footer {
+	display: inline-block;
+	bottom: 0;
+}
+
+.logo {
+  padding-right: 10%;
+  padding-top: 10%;
+	padding-left: 10%;
+	width: 250px;
+	height: 250px;
+}
+
+.main {
+	width: 364px;
+	height: 364px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
 }
 
 .picture {
-  width: 20%; 
+	width: 100px;
+	height: 100px;
+}
+
+@media only screen and (min-width: 375px) {
+
+	.header {
+		height: 50%;
+	}
+
+	.web {
+		padding-top: 100%;
+	}
+	.brand {
+		padding-top: 75%;
+	}
+	.illustrate {
+		padding-top: 75%;
+	}
+
+}
+
+@media only screen and (min-width: 425px) {
+
+	.header {
+		height: 42%;
+	}
+	.picture {
+		width: 150px;
+		height: 150px;
+	}
+
+	nav li {
+		display: inline-block;
+		padding: 2%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.header {
+		height: 53%;
+	}
+
+	html {
+		font-size: 20pt;
+	}
+
+	nav a {
+		font-size: 30pt;
+	}
+
+	nav a:hover {
+		font-size: 30pt;
+
+	}
+
+	h2 {
+			line-height: 2em;
+			font-size: 30pt;
+		}
+	.main {
+		width: 100%;
+		height: 100%;
+	 }
+	 img {
+	 	width: 30%;
+	 	height: 20%;
+	 }
+
+	 .logo {
+		 width: 50%;
+		 padding-top: 5%;
+		 height: 280px;
+	 }
+
+		.web {
+			padding-top: 60%;
+		}
+		.brand {
+			padding-top: 37%;
+		}
+		.illustrate {
+			padding-top: 38%;
+		}
+		.picture {
+			width: 200px;
+			height: 200px;
+		}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.header {
+		height: 40%;
+	}
+	img {
+		width: 23%;
+	}
+	.logo {
+		width: 40%;
+	}
+
+	.web {
+		padding-top: 40%;
+	}
+	.brand {
+		padding-top: 34%;
+	}
+	.illustrate {
+		padding-top: 33%;
+	}
+
+	.main {
+		width: 80%;
+	}
+
+}
+@media only screen and (min-width: 2500px) {
+
+	nav a {
+		font-size: 40pt;
+	}
+
+	.logo {
+		width: 30%;
+		height: 70%;
+	}
+
+	h2 {
+		font-size: 40pt;
+	}
+	.brand {
+		padding-top: 23%;
+	}
+
+	.web {
+		padding-top: 30%;
+	}
+
+	.illustrate {
+		padding-top: 23%;
+	}
+	.main {
+		height: 10%;
+	}
+
+	html {
+		font-size: 40pt;
+	}
+	.picture{
+		height: 300px;
+		width: 300px;
+	}
+
+	.icon {
+		height: 100px;
+		width: 100px;
+	}
+
+
 }
