@@ -24,7 +24,6 @@ box-sizing: inherit;
 .header {
 	width: 100%;
 	height: 360px;
-	position: fixed;
 	top: 0;
 }
 
